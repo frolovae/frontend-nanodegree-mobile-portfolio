@@ -1,5 +1,22 @@
 ## Website Performance Optimization portfolio project
 
+MANUAL
+1. Download and save folder frontend-nanodegree-mobile-portfolio to disk.
+2. Open file index.html in browser.
+
+
+Steps taken to improve perfomance
+INDEX.HTML
+1. Blocking css and js files reorganized.
+2. Fonts: no web font.
+3. Images resized and compressed.
+4. index.html size minification.
+
+MAIN.JS
+1. Pizza resize optimised. Recalculation of new size for each pizza eliminated.
+2. Scrolling optimised. On scroll pizzas you actuall see on the screen slide, which is significantly less than 200.
+
+
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
 
 To get started, check out the repository, inspect the code,
